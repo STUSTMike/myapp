@@ -16,7 +16,7 @@ function MySlider(props) {
             onChange={handleChange}/>
             <span>{value}</span>
         </div>
-
+           
     );
 }
 
