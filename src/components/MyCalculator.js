@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Calculator.css';
+import MyRGBPanel from './MyRGBBPanel';
+import MyDisplay from './MyDisplay';
+import MyButton from './MyButton';
 
 function MyCalculator() {
+    const [result, setResult]=useState("0");
+    const handleclick =(value)=>{
+        alert(value);
+    }
     // 在這裡撰寫你的程式碼
     return (
         <div className='calculator'> 
-           <h1>我的計算機</h1>
+           <MyDisplay />
+           <MyButton buttonClicked={handleclick}/>
         </div>
     );
 }

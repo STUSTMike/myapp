@@ -1,7 +1,7 @@
 
 import './App.css';
-import MyCalculator from './components/MyCalculator';
 import MyRGBBPanel from './components/MyRGBBPanel';
+import MyCalculator from './components/MyCalculator';
 function App() {
   return (
     <div className="App">
