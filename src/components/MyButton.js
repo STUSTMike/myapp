@@ -6,10 +6,36 @@ function MyButton(props){
     const handleclick = (e) => {props.buttonClicked(e.target.value);};
     return(
         <div className="button">
-            <div>
-                <button  className='but but-action' onClick={handleclick} value="c">C</button>
-            </div>
+        <div>
+            <button  className='but but-action' onClick={handleclick} value="c">C</button>
+            <button  className='but but-action' onClick={handleclick} value="+/-">+/-</button>
+            <button  className='but but-action' onClick={handleclick} value="%">%</button>
+            <button  className='but but-operator' onClick={handleclick} value="/">/</button>
         </div>
+        <div>
+            <button  className='but' onClick={handleclick} value="7">7</button>
+            <button  className='but' onClick={handleclick} value="8">8</button>
+            <button  className='but' onClick={handleclick} value="9">9</button>
+            <button  className='but but-operator' onClick={handleclick} value="*">x</button>
+        </div>
+        <div>
+            <button  className='but' onClick={handleclick} value="4">4</button>
+            <button  className='but' onClick={handleclick} value="5">5</button>
+            <button  className='but' onClick={handleclick} value="6">6</button>
+            <button  className='but but-operator' onClick={handleclick} value="-">-</button>
+        </div>
+        <div>
+            <button  className='but' onClick={handleclick} value="1">1</button>
+            <button  className='but' onClick={handleclick} value="2">2</button>
+            <button  className='but' onClick={handleclick} value="3">3</button>
+            <button  className='but but-operator' onClick={handleclick} value="+">+</button>
+        </div>
+        <div>
+            <button  className='but but-zero'  onClick={handleclick} value="0">0</button>
+            <button  className='but' onClick={handleclick} value=".">.</button>
+            <button  className='but but-operator' onClick={handleclick} value="=">=</button>
+        </div>
+    </div>
     )
 
 }

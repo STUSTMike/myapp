@@ -1,11 +1,11 @@
 import React from 'react';
 
-function MyDisplay(){
-    return(
+function MyDisplay(props){
+    return (
         <div className="display">
-        <p>計算機版面</p>
+            {props.result === " " ? "0" : props.result}
         </div>
-    )
-}
+    );
+} // Add the missing closing curly brace here
 
 export default MyDisplay;
