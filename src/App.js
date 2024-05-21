@@ -1,13 +1,15 @@
 
 import './App.css';
 import MyRGBBPanel from './components/MyRGBBPanel';
+import MyCalculator from './components/MyCalculator';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello React! 2024.5.2</h1>
-        <h2>React第一個元件</h2>
+        <h1>MyRGBBPanel</h1>
         <MyRGBBPanel />
+        <h2>My Calculator</h2>
+        <MyCalculator />
       </header>
     </div>
   );
