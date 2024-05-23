@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './Calculator.css';
-import MyRGBPanel from './MyRGBBPanel';
+import MyRGBPanel from '../RGB-Panel/MyRGBBPanel';
 import MyDisplay from './MyDisplay';
 import MyButton from './MyButton';
 
