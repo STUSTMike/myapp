@@ -1,9 +1,52 @@
-.square{
-    background-color: rgb(255, 255, 255);
+.square {
+    background-color: white;
     width: 50px;
     height: 50px;
-    border: 1px solid darkgrey;
+    border: 1px solid darkgray;
     font-size: 24px;
     font-weight: bold;
+    line-height: 50px;
     text-align: center;
+    float: left;
+    /* margin-right: -1px;
+    margin-top: -1px; */
+    padding: 0;
+}
+
+.square:hover{
+    background-color: deeppink;
+    color: white;
+}
+
+.board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.game {
+    width: 400px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    border: 3px solid rgb(160, 160, 253);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.game-board {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(88, 175, 247);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.game-info {
+    margin-left: 60px;
+}
+
+.status {
+    margin-bottom: 10px;
 }

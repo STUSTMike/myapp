@@ -2,6 +2,7 @@ import './App.css';
 import MyRGBBPanel from './components/RGB-Panel/MyRGBBPanel';
 import MyCalculator from './components/Calculator/MyCalculator';
 import Square from './components/tic-tac-toe/Square';
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <h2>My Calculator</h2>
         <MyCalculator />
         <h1>Tic-Tac-Toe Game</h1>
-        <Square/>
+        <TicTacToe/>
       </header>
     </div>
   );

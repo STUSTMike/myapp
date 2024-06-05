@@ -1,10 +1,10 @@
-import React from "react";
-import'./tictactoe.css';
+import React from 'react';
+import './tictactoe.css';
 
-function Square(){
+function Square({value, onSquareClick}){
     return(
-        <button className="square">1</button>
-    )
+        <button className='square' onClick={onSquareClick}>{value}</button>
+    );
 }
 
 export default Square;
