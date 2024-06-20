@@ -1,13 +1,19 @@
-
 import './App.css';
-import MyRGBBPanel from './components/MyRGBBPanel';
+import MyRGBBPanel from './components/RGB-Panel/MyRGBBPanel';
+import MyCalculator from './components/Calculator/MyCalculator';
+import Square from './components/tic-tac-toe/Square';
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello React! 2024.5.2</h1>
-        <h2>React第一個元件</h2>
+        <h1>MyRGBBPanel</h1>
         <MyRGBBPanel />
+        <h2>My Calculator</h2>
+        <MyCalculator />
+        <h1>Tic-Tac-Toe Game</h1>
+        <TicTacToe/>
       </header>
     </div>
   );
