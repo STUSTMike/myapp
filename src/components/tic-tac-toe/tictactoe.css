@@ -31,14 +31,14 @@
     flex-direction: row;
     align-items: center;
     margin: auto;
-    border: 3px solid rgb(160, 160, 253);
+    border: 3px solid blue;
     border-radius: 20px;
     padding: 20px;
 }
 
 .game-board {
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(88, 175, 247);
+    border: 1px solid sandybrown;
+    background-color: bisque;
     border-radius: 10px;
     padding: 10px;
 }
